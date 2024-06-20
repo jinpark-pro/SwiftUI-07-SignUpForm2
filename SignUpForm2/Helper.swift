@@ -23,7 +23,7 @@ enum APIError: LocalizedError {
 }
 
 extension Publisher {
-    // Output, Failure 는 Generic
+    // Output 은 Generic
     func asResult() -> AnyPublisher<Result<Output, Failure>, Never> {
         self.map(Result.success)
             .catch { error in

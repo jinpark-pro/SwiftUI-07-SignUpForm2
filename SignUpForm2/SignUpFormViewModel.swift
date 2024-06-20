@@ -27,8 +27,23 @@ class SignUpFormViewModel: ObservableObject {
                 self.authenticationService.checkUserNameAvailablePublisher(userName: username)
                     .asResult()
             }
+            .receive(on: DispatchQueue.main)
+            .print("before share")
             // 결과 공유를 위해 share 사용
             .share()
+            .print("share")
             .eraseToAnyPublisher()
     }()
+    
+    init() {
+        isUsernameAvailablePublisher.map { result in
+            switch result {
+            case .success(let isAvailable):
+                return isAvailable
+            case .failure(_):
+                return false
+            }
+        }
+        .assign(to: &$isValid)
+    }
 }
