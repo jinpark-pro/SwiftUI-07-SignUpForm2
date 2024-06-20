@@ -11,6 +11,9 @@
 		3C586B822C23AB12008DA11D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C586B812C23AB12008DA11D /* ContentView.swift */; };
 		3C586B842C23AB14008DA11D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C586B832C23AB14008DA11D /* Assets.xcassets */; };
 		3C586B872C23AB14008DA11D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C586B862C23AB14008DA11D /* Preview Assets.xcassets */; };
+		3C586B8E2C23AB36008DA11D /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C586B8D2C23AB36008DA11D /* AuthenticationService.swift */; };
+		3C586B902C23AB53008DA11D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C586B8F2C23AB53008DA11D /* Helper.swift */; };
+		3C586B922C23AB90008DA11D /* SignUpFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C586B912C23AB90008DA11D /* SignUpFormViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		3C586B812C23AB12008DA11D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C586B832C23AB14008DA11D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C586B862C23AB14008DA11D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C586B8D2C23AB36008DA11D /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		3C586B8F2C23AB53008DA11D /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		3C586B912C23AB90008DA11D /* SignUpFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFormViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				3C586B7F2C23AB12008DA11D /* SignUpForm2App.swift */,
 				3C586B812C23AB12008DA11D /* ContentView.swift */,
+				3C586B8D2C23AB36008DA11D /* AuthenticationService.swift */,
+				3C586B912C23AB90008DA11D /* SignUpFormViewModel.swift */,
+				3C586B8F2C23AB53008DA11D /* Helper.swift */,
 				3C586B832C23AB14008DA11D /* Assets.xcassets */,
 				3C586B852C23AB14008DA11D /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C586B922C23AB90008DA11D /* SignUpFormViewModel.swift in Sources */,
+				3C586B8E2C23AB36008DA11D /* AuthenticationService.swift in Sources */,
 				3C586B822C23AB12008DA11D /* ContentView.swift in Sources */,
 				3C586B802C23AB12008DA11D /* SignUpForm2App.swift in Sources */,
+				3C586B902C23AB53008DA11D /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
