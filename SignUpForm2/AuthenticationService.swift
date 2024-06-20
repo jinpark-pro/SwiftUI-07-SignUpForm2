@@ -42,7 +42,12 @@ struct AuthenticationService {
                 return (data, response)
             }
         return dataTaskPublisher
-            .retry(10, withDelay: 3)
+            .retry(10, withDelay: 3) { error in
+                if case APIError.serverError = error {
+                    return true
+                }
+                return false
+            }
             .map(\.data)
             .tryMap { data -> UserNameAvailableMessage in
                 let decoder = JSONDecoder()
