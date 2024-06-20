@@ -22,7 +22,7 @@ enum APIError: LocalizedError {
     case invalidResponse
     case invalidRequestError(String)
     case transportError(Error)
-    case validationError(Error)
+    case validationError(String)
     case decodingError(Error)
     case serverError(statusCode: Int, reason: String? = nil, retryAfter: String? = nil)
     
