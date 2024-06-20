@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C06CF0F2C240BD300127B44 /* Publisher+Retry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C06CF0E2C240BD300127B44 /* Publisher+Retry.swift */; };
 		3C586B802C23AB12008DA11D /* SignUpForm2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C586B7F2C23AB12008DA11D /* SignUpForm2App.swift */; };
 		3C586B822C23AB12008DA11D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C586B812C23AB12008DA11D /* ContentView.swift */; };
 		3C586B842C23AB14008DA11D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C586B832C23AB14008DA11D /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C06CF0E2C240BD300127B44 /* Publisher+Retry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Retry.swift"; sourceTree = "<group>"; };
 		3C586B7C2C23AB12008DA11D /* SignUpForm2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignUpForm2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C586B7F2C23AB12008DA11D /* SignUpForm2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpForm2App.swift; sourceTree = "<group>"; };
 		3C586B812C23AB12008DA11D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				3C586B912C23AB90008DA11D /* SignUpFormViewModel.swift */,
 				3C586B8F2C23AB53008DA11D /* Helper.swift */,
 				3C586B942C2404BD008DA11D /* Publisher+Dump.swift */,
+				3C06CF0E2C240BD300127B44 /* Publisher+Retry.swift */,
 				3C586B832C23AB14008DA11D /* Assets.xcassets */,
 				3C586B852C23AB14008DA11D /* Preview Content */,
 			);
@@ -153,6 +156,7 @@
 				3C586B8E2C23AB36008DA11D /* AuthenticationService.swift in Sources */,
 				3C586B952C2404BD008DA11D /* Publisher+Dump.swift in Sources */,
 				3C586B822C23AB12008DA11D /* ContentView.swift in Sources */,
+				3C06CF0F2C240BD300127B44 /* Publisher+Retry.swift in Sources */,
 				3C586B802C23AB12008DA11D /* SignUpForm2App.swift in Sources */,
 				3C586B902C23AB53008DA11D /* Helper.swift in Sources */,
 			);
