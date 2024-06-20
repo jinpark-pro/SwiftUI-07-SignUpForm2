@@ -33,6 +33,7 @@ class SignUpFormViewModel: ObservableObject {
             // 서버에서 자료는 한번 가져오고 가져온 결과를 공유
             .share()
             .print("share")
+            .dump()
             .eraseToAnyPublisher()
     }()
     

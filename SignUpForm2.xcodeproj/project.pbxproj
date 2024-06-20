@@ -14,6 +14,7 @@
 		3C586B8E2C23AB36008DA11D /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C586B8D2C23AB36008DA11D /* AuthenticationService.swift */; };
 		3C586B902C23AB53008DA11D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C586B8F2C23AB53008DA11D /* Helper.swift */; };
 		3C586B922C23AB90008DA11D /* SignUpFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C586B912C23AB90008DA11D /* SignUpFormViewModel.swift */; };
+		3C586B952C2404BD008DA11D /* Publisher+Dump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C586B942C2404BD008DA11D /* Publisher+Dump.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		3C586B8D2C23AB36008DA11D /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		3C586B8F2C23AB53008DA11D /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		3C586B912C23AB90008DA11D /* SignUpFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFormViewModel.swift; sourceTree = "<group>"; };
+		3C586B942C2404BD008DA11D /* Publisher+Dump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Dump.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				3C586B8D2C23AB36008DA11D /* AuthenticationService.swift */,
 				3C586B912C23AB90008DA11D /* SignUpFormViewModel.swift */,
 				3C586B8F2C23AB53008DA11D /* Helper.swift */,
+				3C586B942C2404BD008DA11D /* Publisher+Dump.swift */,
 				3C586B832C23AB14008DA11D /* Assets.xcassets */,
 				3C586B852C23AB14008DA11D /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			files = (
 				3C586B922C23AB90008DA11D /* SignUpFormViewModel.swift in Sources */,
 				3C586B8E2C23AB36008DA11D /* AuthenticationService.swift in Sources */,
+				3C586B952C2404BD008DA11D /* Publisher+Dump.swift in Sources */,
 				3C586B822C23AB12008DA11D /* ContentView.swift in Sources */,
 				3C586B802C23AB12008DA11D /* SignUpForm2App.swift in Sources */,
 				3C586B902C23AB53008DA11D /* Helper.swift in Sources */,
