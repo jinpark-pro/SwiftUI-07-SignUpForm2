@@ -30,6 +30,7 @@ class SignUpFormViewModel: ObservableObject {
             .receive(on: DispatchQueue.main)
             .print("before share")
             // 결과 공유를 위해 share 사용
+            // 서버에서 자료는 한번 가져오고 가져온 결과를 공유
             .share()
             .print("share")
             .eraseToAnyPublisher()
@@ -45,5 +46,15 @@ class SignUpFormViewModel: ObservableObject {
             }
         }
         .assign(to: &$isValid)
+        
+        isUsernameAvailablePublisher.map { result in
+            switch result {
+            case .success(let isAvailable):
+                return isAvailable ? "" : "This username is not available."
+            case .failure(let error):
+                return error.localizedDescription
+            }
+        }
+        .assign(to: &$usernameMessage)
     }
 }
